@@ -33,6 +33,7 @@ fw-fanctrl
 fzf
 git
 git-filter-repo
+github-cli
 go
 grim
 grimblast-git

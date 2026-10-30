@@ -58,6 +58,7 @@ hl.window_rule({
 
 	float = true,
 	size = "1200 600",
+	-- maximize = true,
 	center = true,
 })
 

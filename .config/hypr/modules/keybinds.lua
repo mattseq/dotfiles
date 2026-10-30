@@ -2,6 +2,7 @@ local terminal = "kitty"
 local browser = "firefox"
 local filemanager = "dolphin"
 local code = "code"
+local discord = "vesktop"
 local monitor_app = "kitty --class btop -e btop"
 local ipc = "noctalia msg"
 
@@ -16,7 +17,7 @@ hl.bind(mainMod .. " + Q", hl.dsp.exec_cmd(terminal))
 hl.bind(mainMod .. " + D", hl.dsp.exec_cmd(browser))
 hl.bind(mainMod .. " + SHIFT + D", hl.dsp.exec_cmd(browser .. " --private-window"))
 hl.bind(mainMod .. " + E", hl.dsp.exec_cmd(filemanager))
-hl.bind(mainMod .. " + A", hl.dsp.exec_cmd(code))
+hl.bind(mainMod .. " + A", hl.dsp.exec_cmd(discord))
 hl.bind(mainMod .. " + S", hl.dsp.exec_cmd(monitor_app))
 hl.bind(mainMod .. " + X", hl.dsp.window.float({ action = "toggle" }))
 hl.bind(mainMod .. " + W", hl.dsp.window.close())
